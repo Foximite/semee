@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiResponse } from 'next';
 interface Empresa {
     id: number;
     nome: string;
@@ -8,7 +8,7 @@ interface Empresa {
     email: string;
 }
 
-export async function GET(request: NextApiRequest, response: NextApiResponse<Empresa>) {
+export async function GET(response: NextApiResponse<Empresa>) {
     const res = await fetch('http://127.0.0.1:8089/public/empresasCmam', { cache: 'no-store' })
     try {
     if (!res.ok) {
