@@ -12,7 +12,7 @@ const Navbar = () => {
           <span className="flex items-center space-x-2 text-2xl font-medium text-orange-500 dark:text-gray-100">
             <span>
               <Image
-                src="/EDM_Logo.png"
+                src="/EDM_logo.png"
                 alt="EDM Logo"
                 width="256"
                 height="256"
