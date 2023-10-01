@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
 
-        <Link href="/welcome">
+        <Link href="/">
           <span className="flex items-center space-x-2 text-2xl font-medium text-orange-500 dark:text-gray-100">
             <span>
               <Image
