@@ -8,7 +8,7 @@ interface Empresa {
     email: string;
 }
 
-export async function GET(request: NextRequest, response: NextApiResponse<Empresa>) {
+export async function GET(request : NextRequest, response: NextApiResponse<Empresa>) {
     const res = await fetch('http://127.0.0.1:8089/public/empresasCmam', { cache: 'no-store' })
     try {
     if (!res.ok) {
