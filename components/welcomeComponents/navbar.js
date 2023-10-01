@@ -13,7 +13,7 @@ const Navbar = () => {
             <span>
               <Image
                 src="/EDM_Logo.png"
-                alt="N"
+                alt="EDM Logo"
                 width="256"
                 height="256"
                 className=""

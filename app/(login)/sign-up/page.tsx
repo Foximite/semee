@@ -27,6 +27,7 @@ export default function SignUp() {
             radius="none"
             isZoomed
             src="/EDM_Background4.jpg"
+            alt="BG"
             className="h-screen w-screen bg-cover bg-no-repeat"
           />
         </section>
@@ -37,7 +38,7 @@ export default function SignUp() {
               className="flex flex-col items-center justify-center mt-10 sm:mt-0"
               style={{ width: "100%", height: "300px" }}
             >
-              <Image radius="none" src="/EDM_Logo_2.png" className="" />
+              <Image radius="none" src="/EDM_Logo_2.png" className="" alt="" />
               <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-orange-900">
                 Registro
               </h2>

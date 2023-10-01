@@ -9,7 +9,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useSession, signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 interface Values {
   email: string;
@@ -25,6 +25,7 @@ export default function LoginPage() {
           <Image
             radius="none"
             isZoomed
+            alt="BG"
             src="/EDM_Background4.jpg"
             className="h-screen w-screen bg-cover bg-no-repeat"
           />
@@ -35,7 +36,7 @@ export default function LoginPage() {
             className="flex flex-col items-center justify-center mt-10 sm:mt-0"
             style={{ width: "100%", height: "300px" }}
           >
-            <Image radius="none" src="/EDM_Logo_2.png" className="" />
+            <Image radius="none" src="/EDM_Logo_2.png" className="" alt="BG" />
             <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-orange-900">
               Sign-in
             </h2>
